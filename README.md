@@ -16,7 +16,3 @@ docker-compose up
 ### MyBinder
 
 - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JudgeResearchEcosystem/sdk-tutorial/main?labpath=JudgeResearchNotebooks%2FFeature_Tutorial.ipynb)
-### Google Colab
-
-- [Launch Judge Research API Docs](https://colab.research.google.com/github/JudgeResearchEcosystem/sdk-tutorial/blob/main/JudgeResearchNotebooks/JR-API-Documentation.ipynb)
-- [Launch Judge Research Feature Building Tutorial](https://colab.research.google.com/github/JudgeResearchEcosystem/sdk-tutorial/blob/main/JudgeResearchNotebooks/Feature_Tutorial.ipynb)
