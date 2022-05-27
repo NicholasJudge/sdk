@@ -1,0 +1,15 @@
+version: '2.1'
+services:
+    jupyter:
+        build: .
+        image: docker.io/library/judgeresearch-featurefeeder-dev
+        container_name: jrnotebook
+        restart: 'no'
+        volumes:
+            - ./JudgeResearchNotebooks:/home/jovyan/JudgeResearchEditable
+        ports:
+            - "8888:8888"
+        environment:
+            NB_UID: ${UID}
+            NB_GID: ${GID}
+            JUPYTER_TOKEN: JR
