@@ -68,12 +68,12 @@ class JudgeResearch:
         _data = []
         for feature in features:
             _payload = {
-                "attribute": feature.attribute,
-                "DV": feature.dv,
-                "MBS": feature.mbs,
-                "featureName": feature.feature_name,
-                "value": feature.value,
-                "IPP": feature.ipp,
+                "attribute": str(feature.attribute),
+                "DV": str(feature.dv),
+                "MBS": str(feature.mbs),
+                "featureName": str(feature.feature_name),
+                "value": str(feature.value),
+                "IPP": str(feature.ipp),
             }
             _data.append(_payload)
         data = {"data": _data}
