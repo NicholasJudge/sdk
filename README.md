@@ -15,4 +15,4 @@ docker-compose up
 
 ### MyBinder
 
-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JudgeResearchEcosystem/sdk-tutorial/main?labpath=JudgeResearchNotebooks%2FFeature_Tutorial.ipynb)
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JudgeResearchEcosystem/sdk/main?labpath=JudgeResearchNotebooks%2FFeature_Tutorial.ipynb)
